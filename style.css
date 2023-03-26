@@ -322,9 +322,9 @@ p {
     }
 
     .read-more-btn {
-        padding: 14px 28px;
+        padding: 10px 23px;
         margin-top: 2rem;
-        font-size: 19px;
+        font-size: 17px;
     }
 
     /* -- WEB DEV CAREER -- */
@@ -353,16 +353,16 @@ p {
     }
 
     .projects-container img {
-        height: 400px;
-        width: 55vw;
+        height: 300px;
+        width: 45vw;
         margin-top: 1.5rem;
     }
 
     .link, .github {
         margin-left: 24px;
         margin-bottom: 3px;
-        padding: 15px;
-        font-size: 19px;
+        padding: 11px;
+        font-size: 17px;
     }
 
 
