@@ -13,9 +13,9 @@ body {
 
 /* -- HEADER -- */
 
-
 .nav-bar {
-   
+    position: relative;
+    top: 1rem;
     width: 100%;
     padding: 2rem 1rem;
     display: flex;
@@ -30,6 +30,7 @@ body {
     font-weight: 300;
     margin-left: 4rem;
     transition: .4s;
+    z-index: 150;
 }
 
 a:hover {
@@ -41,11 +42,47 @@ a:hover {
     display: none;
 }
 
+/* -- RESPONSIVE MENU -- */
+.nav-bar i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.responsive-menu.open {
+    height: auto;
+}
+
+.responsive-menu {
+    position: relative;
+    bottom: 60px;
+    background: #D3CEBA;
+    height: 0;
+    overflow: hidden;
+    z-index: auto;
+}
+
+.responsive-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 4rem;
+    display: none;
+    padding: 1rem;
+    transition: .4s;
+}
+
+
+  
+
+
+
+
 /* -- HERO -- */
 
 .hero-section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 0 5rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +97,6 @@ a:hover {
 .hero-img {
     flex: 50%;
     padding-right: 50px;
-
 }
 
 .hero-img img {
@@ -216,3 +252,125 @@ p {
     outline: none;
    
 }
+
+
+/* -- RESPONSIVE WEB DESIGN -- */
+
+
+@media (max-width: 768px) {
+    
+/* -- RESPONIVE NAV -- */
+    .nav-bar a {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+        position: relative;
+        right: 40%;
+        top: 5px;
+        z-index: 150;
+        
+    }
+    
+    .responsive-menu a {
+        display: block;
+        position: relative;
+        top: 20px;
+        transition: .4s;
+    }
+
+    .responsive-menu a:hover {
+        color: white;
+    }
+
+    .responsive-menu {
+        display: block;
+        width: 100%;
+        padding: 2rem 1rem;
+        
+    }
+
+    /* -- HERO -- */
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-section p {
+        line-height: 2rem;
+    }
+
+    .hero-img img {
+        padding-top: 4rem;
+        width: 40vw;
+        left: 0;
+    }
+
+    /* -- ABOUT ME -- */
+
+    .aboutme {
+        padding: 1.5rem;
+        padding-top: 5rem;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .read-more-btn {
+        padding: 14px 28px;
+        margin-top: 2rem;
+        font-size: 19px;
+    }
+
+    /* -- WEB DEV CAREER -- */
+
+    .webdev-career {
+        padding: 1.5rem;
+    }
+
+    .webdev-career h2 {
+        padding: 3rem;
+    }
+
+
+    /* -- PROJECTS -- */
+
+    .projects {
+        padding: 1.5rem;
+    }
+
+    .projects h2 {
+        padding-top: 4rem;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-container img {
+        height: 400px;
+        width: 55vw;
+        margin-top: 1.5rem;
+    }
+
+    .link, .github {
+        margin-left: 24px;
+        margin-bottom: 3px;
+        padding: 15px;
+        font-size: 19px;
+    }
+
+
+
+
+
+
+}  
+    
+
+

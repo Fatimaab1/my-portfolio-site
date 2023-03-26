@@ -15,3 +15,19 @@ function readMore() {
         readMoreBtn.innerHTML = "Read More";
     }
 }
+
+
+const navbar = document.querySelector(".nav-bar");
+const hamburgerIcon = document.querySelector(".nav-bar i");
+const responsiveMenu = document.querySelector(".responsive-menu");
+
+navbar.onclick = function () {
+    responsiveMenu.classList.toggle('open');
+    const isOpen = responsiveMenu.classList.contains('open');
+    hamburgerIcon.classList = isOpen ? 'fa fa-times' : 'fa fa-bars';
+
+}
+
+
+
+
