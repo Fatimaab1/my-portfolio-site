@@ -82,7 +82,7 @@ a:hover {
 
 .hero-section {
     min-height: 100vh;
-    padding: 0 5rem 2rem;
+    padding: 0 8rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,13 +97,14 @@ a:hover {
 .hero-img {
     flex: 50%;
     padding-right: 50px;
+    border-radius: 50%;
 }
 
 .hero-img img {
     position: relative;
-    left: 30%;
-    padding-bottom: 65px;
-    width: 20vw;
+    left: 10%;
+    padding-bottom: 55px;
+    width: 21vw;
 }
 
 .main-content h2 {
@@ -133,6 +134,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .aboutme h3 {
@@ -168,29 +170,6 @@ p {
     display: none;
 }
 
-
-
-/* -- CAREER IN WEB DEVELOPMENT SECTION -- */
-
-.webdev-career {
-    padding: 5rem;
-}
-
-.webdev-career h2,
-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.webdev-career p {
-    padding: 0 4rem 0 4rem;
-}
-
-.webdev-heading {
-    font-size: 2rem;
-    padding-bottom: 4rem;
-}
 
 
 /* -- PROJECTS SECTION -- */
