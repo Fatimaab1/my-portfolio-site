@@ -2,13 +2,8 @@
 
 **PLANNING:**
 
-This project is a personal portfolio showcasing my application. 
+This project is a personal portfolio showcasing my projects. 
 
-To plan this project, I carefully considered the requirements and then broke down the different sections that would best showcase the following:
-
-- About me - here I introduce myself and highlight why I am applying for the programme
-- Pursuing a career in web development - I talk about why I’d like to move into a career as a web developer
-- Projects - In this section I showcase what I’ve learnt so far and the projects I’ve worked on
 
 &nbsp;
 
